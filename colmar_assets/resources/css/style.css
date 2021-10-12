@@ -1,0 +1,46 @@
+html{
+
+}
+
+/* header */
+header{
+    height: 64px;
+}
+#companylogo{
+    margin-left: 24px;
+    display: inline;
+}
+#companyname{
+    display: inline;
+    height: 32px;
+}
+header nav{
+    margin-right: 24px;
+    float: right;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 16px;
+}
+ 
+/* banner */
+.banner{
+    display: flex;
+    width: 100%;
+    background-color: #bdc1c7;
+}
+#bannerimage{
+    margin: 32px 24px;
+    width: 60%;
+}
+#bannertext h1{
+    font-size: 26px;
+}
+
+/* detail */
+
+/* course */
+
+/* thesis */
