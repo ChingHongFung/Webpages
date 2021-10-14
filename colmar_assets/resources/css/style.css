@@ -2,21 +2,32 @@ html{
 
 }
 
+body{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
 /* header */
 header{
+    display: flex;
+    align-items: center;
     height: 64px;
 }
 #companylogo{
     margin-left: 24px;
-    display: inline;
+    height: 50px;
+    width: auto;
 }
-#companyname{
-    display: inline;
+header span{
+    margin-left: 5px;
     height: 32px;
+    font-size: 28px;
 }
 header nav{
+    margin-left: auto;
     margin-right: 24px;
-    float: right;
 }
 header ul{
     display: flex;
@@ -29,18 +40,229 @@ header li{
 .banner{
     display: flex;
     width: 100%;
-    background-color: #bdc1c7;
+    background-color: #d2d2d4;
+    align-items: center;
 }
 #bannerimage{
     margin: 32px 24px;
     width: 60%;
 }
-#bannertext h1{
-    font-size: 26px;
+.bannertext{
+    width: 30%;
+}
+.bannertext h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #424242;
+}
+.bannertext h2{
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666666;
+}
+.bannertext #startbutton{
+    padding: 8px 40%;
+    font-size: 14px;
+    background-color: #404040; 
+    color: white;
 }
 
-/* detail */
+/* main */
+.main{
+    display: flex;
+    width: 100%;
+}
+.mainleft{
+    margin: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.mainparagraph h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: #424242;
+}
+.mainparagraph p{
+    font-size: 14px;
+    color: #666666;
+}
+.mainparagraph span{
+    font-size: 12px;
+    color: #666666;
+}
+.mainright{
+    padding-top: 32px;
+    border-left: 3px solid #d2d2d4;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.infoblock{
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #d2d2d4;
+}
+.infotext{
+    margin-left: 10px;
+    width: 65%;
+}
+.infoimage{
+    margin: 16px 16px;
+    width: 35%;
+    height: auto;
+}
+.mainright h3{
+    font-size: 30px;
+    color: #424242;
+}
+.mainright span{
+    margin-top: 8px;
+    display: block;
+    color: #666666;
+}
+.readmore{
+    margin-top: 8px;
+    color: rgb(2, 203, 253) !important;
+}
+#guest{
+    background-color: #d2d2d4;
+}
 
 /* course */
+.course{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #d2d2d4;
+    align-items: center;
+}
+.course h1{
+    padding-top: 32px;
+    margin-bottom: 32px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #424242;
+}
+.courserow{
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    justify-content: center;  
+    flex: 1 1;
+}
+.courseitem{
+    margin: 32px 16px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+.courseimage{
+    width: 100%;
+    height: aut0;
+}
+.courseitem h3{
+    margin: 16px 16px;
+    font-size: 20px;
+    color: #424242;
+}
+.courseitem span{
+    margin: 8px 16px;
+    font-size: 14px;
+    color: #666666;
+}
+.courseitem p{
+    margin-bottom: 24px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: #666666;
+}
+#row2 {
+    margin-bottom: 32px;
+}
 
 /* thesis */
+.thesis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#thesistitle{
+    padding-top: 32px;
+    margin-bottom: 32px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #424242;
+}
+.thesiscontent{
+    display: flex;
+    width: 100%;
+    border-top: 3px solid #d2d2d4;
+    border-bottom: 3px solid #d2d2d4;
+}
+.thesisleft{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 24px;
+    width: 60%;
+}
+.thesisleft video{
+    margin-bottom: 24px;
+}
+.thesisleft h1{
+    margin-bottom: 8px;
+    font-size: 26px;
+    color: #424242;  
+}
+.thesisleft p{
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #666666;
+}
+.thesisright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-left: 3px solid #d2d2d4;
+}
+#Fisma{
+    background-color: #d2d2d4;
+}
+.thesisblock{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid #d2d2d4;
+}
+.thesisimage{
+    margin: 16px;
+    width: 35%;
+    height: auto;
+}
+.thesistext{
+    width: 65%;
+}
+.thesistext h3{
+    font-size: 26px;
+    color: #424242;
+}
+.thesistext span{
+    font-size: 18px;
+    color: #666666;
+}
+
+/* footer */
+footer{
+    margin-top: 16px;
+    margin-left: 24px;
+    display: flex;
+    color: #666666;
+    font-size: 12px;
+}
+#termsprivacy{
+    margin-left: auto;
+    margin-right: 10px;
+}
