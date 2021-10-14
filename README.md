@@ -4,3 +4,6 @@ I am new to web development and have recently started learning HTML and CSS. I h
 
 #### excursion_travel project (Updated on 12/10/2021):
 I built a very simple website for a model travel company. Specification is included.
+
+#### colmar_assets project (Updated on 14/10/2021):
+This is a more complicated website than the last one (excursion_travel) that involves more formatting and layout. I used a newly-learnt technique of flexbox to structure the elements of my webpage. Specification is included.
