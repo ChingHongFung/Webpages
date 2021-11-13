@@ -8,11 +8,11 @@ I will continue to post more webpages as I learn more advanced tools including J
 
 ## Overview of projects
 
-### excursion_travel project (Updated on 12/10/2021):
+* excursion_travel project (Updated on 12/10/2021):
 I built a very simple website for a model travel company. Specification is included.
 Link to webpage: [Excursion_Travel](https://chinghongfung.github.io/Webpages/excursion_travel/index.html).
 
 
-### colmar_assets project (Updated on 14/10/2021):
+* colmar_assets project (Updated on 14/10/2021):
 This is a more complicated website than the last one (excursion_travel) that involves more formatting and layout. I used a newly-learnt technique of flexbox to structure the elements of my webpage. Specification is included.
-Link to webpage: [Excursion_Travel](https://chinghongfung.github.io/Webpages/colmar_assets/index.html).
+Link to webpage: [Colmar_Assets](https://chinghongfung.github.io/Webpages/colmar_assets/index.html).
